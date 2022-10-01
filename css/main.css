@@ -1,4 +1,5 @@
 .wrapper {
+    background: url(/img/hero.jpg) center top no-repeat, url(/img/bottom_back.jpg) center bottom 107px no-repeat;
 }
     .container {
         position: relative;
@@ -357,16 +358,19 @@
                 .about-us__btn-pic {
                 }
         .footer {
-            position: relative;
-            margin-top: 74px;
-            bottom: 0; 
+            /* position: relative; */
+            margin-top: 51px;
+            padding-top: 19px;
+            /* bottom: 0px;  */
             width: 1142px;
             height: 92.64px;
+            border-top: 1px solid #FFFFFF;
             /* left: 389px; */                       
         }
 
-        .footer__container{
-            border-top: 1px solid #FFFFFF;
+        .footer__container{ 
+            position: relative;                
+            display: block;       
             /* mix-blend-mode: normal; */
             /* opacity: 0.1; */
         }
