@@ -1,5 +1,5 @@
 .wrapper {
-    background: url(/img/hero.jpg) center top no-repeat, url(/img/bottom_back.jpg) center bottom 107px no-repeat;
+    background: url(../img/hero.jpg) center top no-repeat, url(../img/bottom_back.jpg) center bottom 107px no-repeat;
 }
     .container {
         position: relative;
@@ -312,14 +312,14 @@
                     /* display: block; */
                     width: 490px;
                     height: 505px;
-                    background: url(/img/gates.png) center center/cover no-repeat;
+                    background: url(../img/gates.png) center center/cover no-repeat;
                 }
                 .about-us__content {
                     margin-top: -409px;
                     margin-left: 352px;
                     width: 785px;
                     height: 455px;
-                    background: url(/img/mountains.png) center center/cover no-repeat;
+                    background: url(../img/mountains.png) center center/cover no-repeat;
                 }
                 .about-us__desc {
                     padding: 70px 84px;
