@@ -178,6 +178,7 @@
                     vertical-align: middle;                    
                     margin-right: 39px;
                     color: #666666;
+                    font-size: 16px;
                 }
 
                 .tours__item-info:last-child {
@@ -185,7 +186,7 @@
                 }
 
                 .tours__item-info-pic {                    
-                    vertical-align: bottom;
+                    vertical-align: middle;
                     display: inline-block;
                 }
                 .tours__item-info-desc {
@@ -234,8 +235,7 @@
                     .news__item {
                         position: relative;
                         width: 557px;
-                        /* min-height: 394px; */
-                        min-height: 169px;
+                        /* min-height: 394px; */                        
                         display: inline-block;                    
                         vertical-align: middle;
                         margin-top: 48px;
@@ -248,12 +248,13 @@
                     }         
                     
                     .news__content{
-                        position: absolute;
+                        position: absolute;                        
+                        min-height: 169;
                         left: 0px;
                         right: 0px;
                         /* top: 227px; */
-                        bottom: 0;
-                        padding: 26px 0px 26px 30px;
+                        bottom: 0;                                                
+                        padding: 26px 0px 26px 30px;                        
                     }
 
                     .news__item-pic {
