@@ -185,7 +185,7 @@
                 }
 
                 .tours__item-info-pic {                    
-                    vertical-align: middle;
+                    vertical-align: bottom;
                     display: inline-block;
                 }
                 .tours__item-info-desc {
