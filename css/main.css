@@ -179,8 +179,14 @@
                     margin-right: 39px;
                     color: #666666;
                 }
+
+                .tours__item-info:last-child {
+                    margin: 0px;
+                }
+
                 .tours__item-info-pic {                    
                     vertical-align: middle;
+                    display: inline-block;
                 }
                 .tours__item-info-desc {
                     margin-left: 9px;              
@@ -228,7 +234,8 @@
                     .news__item {
                         position: relative;
                         width: 557px;
-                        min-height: 394px;
+                        /* min-height: 394px; */
+                        min-height: 169px;
                         display: inline-block;                    
                         vertical-align: middle;
                         margin-top: 48px;
@@ -244,7 +251,8 @@
                         position: absolute;
                         left: 0px;
                         right: 0px;
-                        top: 227px;
+                        /* top: 227px; */
+                        bottom: 0;
                         padding: 26px 0px 26px 30px;
                     }
 
@@ -360,8 +368,9 @@
             margin-top: 51px;
             padding-top: 19px;
             /* bottom: 0px;  */
-            width: 1142px;
-            min-height: 92.64px;
+            /* width: 1142px; */
+            /* min-height: 92.64px; */
+            min-height: 132px;
             border-top: 1px solid rgba(255,255,255,0.1);
             /* left: 389px; */                       
         }
