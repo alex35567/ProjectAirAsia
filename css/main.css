@@ -61,7 +61,7 @@
             }
             .contacts__phone {                
                 font-size: 26px;
-                line-height: 35px; 
+                /* line-height: 35px;  */
                 margin-bottom: 2px;               
             }
             .contacts__shedule {
@@ -249,7 +249,7 @@
                     
                     .news__content{
                         position: absolute;                        
-                        min-height: 169;
+                        min-height: 169px;
                         left: 0px;
                         right: 0px;
                         /* top: 227px; */
