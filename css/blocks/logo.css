@@ -1,0 +1,19 @@
+.logo {
+    /* display: inline-block; */
+    width: 85px;
+    height: 36px;      
+    margin-right: 78px;
+}
+
+
+.logo--services{
+    width: 96px;
+    height: 42px;
+    margin-right: 67px;
+}
+
+    .logo__pic {
+        /* Вынес в start */
+        /* max-width: 100%; */
+        /* height: auto; */
+    }

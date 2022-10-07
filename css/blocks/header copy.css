@@ -1,0 +1,25 @@
+.header {                        
+    height: 123.36px;
+    margin-bottom: 72px;
+    
+}
+
+
+    .contacts {
+        position: absolute;
+        top: 26px;
+        text-align: right;
+        right: 0; 
+    }
+    .contacts__phone {                
+        font-size: 26px;
+        /* line-height: 35px;  */
+        margin-bottom: 2px;               
+    }
+    .contacts__shedule {
+        font-size: 13px;
+        /* line-height: 20px;   */
+        text-decoration: underline;              
+    }
+    .dropmessage {
+    }

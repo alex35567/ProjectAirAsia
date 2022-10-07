@@ -1,0 +1,44 @@
+.about-us {
+    /* position: absolute; */
+    /* width: 1139px; */
+    /* height: 552px; */
+    margin-bottom: 53px;
+}
+    .about-us__pic {
+        /* display: block; */
+        max-width: 490px;
+        height: 505px;
+        background: url(../../img/gates.png) center center/cover no-repeat;
+    }
+    .about-us__content {
+        margin-top: -409px;
+        margin-left: 352px;
+        max-width: 785px;
+        min-height: 455px;
+        background: url(../../img/mountains.png) center center/cover no-repeat;
+    }
+    .about-us__desc {
+        /* padding: 70px 193px 70px 84px; */
+        padding: 70px 182px 70px 84px;
+        color: #000000;
+    }
+
+    .about-us__title {
+        margin-bottom: 38px;
+
+    }
+    .about-us__desc-text{
+        font-size: 16px;
+        color: #060606;
+        line-height: 1.7;
+        /* align-items: center; */
+        margin-bottom: 64px;
+    }
+
+    .about-us__desc-text p {
+        margin-bottom: 20px;
+    }
+    .about-us__desc-text p:last-child{
+        margin-bottom: 0;
+    }
+

@@ -1,0 +1,34 @@
+.header {          
+    display: flex;              
+    /* height: 123.36px; */
+    margin-bottom: 30px;  
+    /* margin-bottom: 72px;   */
+    justify-content: space-between;  
+    align-items: center;
+    padding-top: 25px;
+}
+
+    .header__col {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__col--right-align {
+        justify-content: flex-end;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+        .contacts__phone {             
+            font-size: 26px;
+            /* line-height: 1.2; */
+        }
+        .contacts__shedule {               
+            font-size: 13px;        
+            text-decoration: underline;              
+        }
+        .dropmessage {
+        }

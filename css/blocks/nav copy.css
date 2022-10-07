@@ -1,0 +1,25 @@
+.nav {
+    position: absolute;                
+    left: 164px;
+    top: 42px; 
+                    
+}
+.nav__list {
+
+}
+.nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;                
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-size: 14px;
+}
+.nav__link:hover {
+    color: #dfb56d;
+}

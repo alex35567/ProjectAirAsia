@@ -1,0 +1,122 @@
+.tours {                
+    margin-bottom: 126px;                                   
+}
+    .tours__title {                                        
+    }
+    .tours__title-box{
+        margin-bottom: 44px;
+        display: flex;
+        align-items: center;
+    }
+    .title {
+        /* display: inline-block; */
+        /* vertical-align: middle; */
+        margin-right: 14px; 
+    }
+    .tours__pic {                    
+        /* display: inline-block;                     */
+        /* vertical-align: middle; */
+    }
+    .tours__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .tours__item {            
+        /* width: calc(100% / 3-(22 * 2 / 3));; */
+        width: calc(100% / 3 - 18px);;
+    }
+
+    .tour {            
+        /* display: inline-block; */                
+        /* vertical-align: top;                                                                                                        */
+        /* vertical-align: middle; */
+        /* margin-right: 22px; */
+        min-height: 449px; 
+        background: white;        
+        border-radius: 5px 5px 5px 5px;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    /* .tour__item:last-child {            
+        margin-right: 0;
+    } */
+
+    /* .tour__item-pic {
+    } */
+
+    .tour__desc {
+        padding: 40px 28px 24px 19px;                  
+        color: #000000;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+
+    .tour__item-title {
+        margin-bottom: 19px;
+    }
+
+    .tour__list-info {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px 0px 7px;
+    }
+
+    .tour__item-info {
+        /* display: inline-block;         */
+        /* vertical-align: middle;                     */
+        /* margin-right: 30px; */
+
+        display: flex;
+        justify-content: space-between;
+        color: #666666;
+        font-size: 16px;
+    }
+
+    /* .tour__item-info:last-child {
+        margin: 0px;
+    } */
+
+    .tour__item-info-pic {          
+        /* vertical-align: middle; */
+        /* display: inline-block; */
+        margin-right: 14px;
+    }
+    .tour__item-info-desc {
+        /* margin-left: 9px;               */
+        /* display: inline-block; */
+        /* vertical-align: middle;   */
+        
+    }
+    .tour__item-description {
+        margin-bottom: 24px;
+        color: #303030;
+        
+    }
+
+    /* .tour__item-btn {
+        padding: 18px 29px;
+        background: white;
+        color: #F5170E;    
+        border: 1px solid #F5170E;    
+        margin-top: auto;
+        align-self: flex-start;
+
+    } */
+
+    /* .tour__item-btn--active{
+        background: #F5170E;                    
+        color: white; 
+    }
+    
+    .tour__item-btn:hover {
+        background: #F5170E;                    
+        color: white; 
+    } */
+
