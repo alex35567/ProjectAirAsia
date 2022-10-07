@@ -101,19 +101,4 @@ body {
         width: 1141px;                          
     }
 
-    .container--welcome {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 777px;
-    }
-
-    .container--main {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* min-height: 777px; */
-    }
-    
-
 
