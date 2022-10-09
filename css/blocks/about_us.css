@@ -19,7 +19,8 @@
     }
     .about-us__desc {
         /* padding: 70px 193px 70px 84px; */
-        padding: 70px 182px 70px 84px;
+        /* padding: 70px 182px 70px 84px; */
+        padding: 68px 203px 70px 81px;
         color: #000000;
     }
 
@@ -32,7 +33,8 @@
         color: #060606;
         line-height: 1.7;
         /* align-items: center; */
-        margin-bottom: 64px;
+        /* margin-bottom: 64px; */
+        margin-bottom: 40px;
     }
 
     .about-us__desc-text p {

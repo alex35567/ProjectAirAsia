@@ -22,12 +22,13 @@
         display: flex;
         flex-direction: column;
         text-align: right;
+        line-height: 1;
     }
         .contacts__phone {             
-            font-size: 26px;
-            /* line-height: 1.2; */
+            font-size: 26px;            
         }
         .contacts__shedule {               
+            
             font-size: 13px;        
             text-decoration: underline;              
         }

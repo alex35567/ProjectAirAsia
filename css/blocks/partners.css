@@ -1,4 +1,5 @@
 
+
 .partners{
     background: #F4F5F5;
     color: #1A1B1E;
@@ -14,15 +15,29 @@
 .partners__list{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -23px;
+    /* margin-left: -23px; */
+    justify-content: space-between;
 }
 
 
 .partners__link{
     text-decoration: none;
     display: flex;
-    width: 290px;
+    /* width: 290px; */
     height: 120px;
     align-items: center;
     justify-content: center;
+}
+
+
+.partners_item{
+    margin-right: 73;
+}
+
+.partners__item:nth-child(4n + 1) .partners__link {
+    justify-content: flex-start;
+}
+
+.partners__item:nth-child(4n + 4) {
+    margin-right: 0;
 }
