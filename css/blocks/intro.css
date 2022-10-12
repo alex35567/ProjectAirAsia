@@ -1,0 +1,102 @@
+
+.intro {
+    width: 100%;    
+    flex: 1;
+    background: #F2F2F2 url(../../img/intro/bg.jpg) center center no-repeat;
+    display: flex;    
+    justify-content: center;
+}
+
+.intro__anime{
+    opacity: 0;
+    /* transform: scale(1); */
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: logo_anime  0.6s 0.6s forwards;
+    /* animation: logo_anime cubic-bezier(0,-4,0,4) 0.6s 0.5s forwards; */
+    
+}
+
+
+/* .intro .intro__anime:hover{ */
+    /* opacity: 1;
+    transform: scale(1);
+    transition: cubic-bezier(0,-4,0,4) 0.5s 0.5s; */
+
+    /* animation: logo_anime2  0.6s 0.2s forwards; */
+/* } */
+
+
+/* @keyframes logo_anime2 {
+
+    0%{
+        opacity: 0;
+        transform: scale(0.7) ;
+        animation-delay: 0.5s;
+    }
+
+    25%{
+        opacity: 0.5;
+        transform: scale(1.1) ;
+    }
+
+    50%{
+        opacity: 0.8;
+        transform: scale(0.9) ;
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1) ;
+    }
+} */
+
+
+@keyframes logo_anime {
+
+    0%{
+        opacity: 0;
+        transform: scale(0.7) ;
+        animation-delay: 0.5s;
+    }
+
+    25%{
+        opacity: 0.5;
+        transform: scale(1.1) ;
+    }
+
+    50%{
+        opacity: 0.8;
+        transform: scale(0.9) ;
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1) ;
+    }
+}
+
+.intro__shades{
+    /* flex: 1; */
+    /* height: 100%; */
+    width: 591px;
+    background: url(../../img/intro/shades.png) center center no-repeat;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__logo-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px;
+
+}
+
+.intro__desc .p{
+    font-size: 18px;
+}

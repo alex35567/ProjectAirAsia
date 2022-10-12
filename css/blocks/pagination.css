@@ -5,7 +5,7 @@
     /* text-align: center;                  */
     font-size: 16px;
 }
-.paginator_desc {
+.paginator__desc {
     /* display: inline-block;                     */
     /* vertical-align: middle; */
     /* margin-left: 0px; */
@@ -36,14 +36,36 @@
     margin-right: -4px;                        
     line-height: 1.3125;   
     text-decoration: none; 
-}
-.paginator__ref--active {
-    color: #F5170E;                        
-    background: #FFFFFF; 
-
+    transition: 0.5s;
 }
 
-.paginator__ref:hover {
+.paginator__ref--theme-primary{
+    color: white;
+    /* background: #FFFFFF;  */
+}
+
+.paginator__ref--theme-primary-active {
     color: #F5170E;                        
     background: #FFFFFF; 
+}
+
+.paginator__ref--theme-primary:hover {    
+    color: #F5170E;                        
+    background: #FFFFFF; 
+}
+
+
+.paginator__ref--theme-secondary{
+    color: black;                        
+    /* background: #FFFFFF;  */
+}
+
+.paginator__ref--theme-secondary-active {
+    color: white;
+    background: #F5170E;
+}
+
+.paginator__ref--theme-secondary:hover {    
+    color: white;
+    background: #F5170E;
 }

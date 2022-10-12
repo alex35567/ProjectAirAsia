@@ -1,0 +1,46 @@
+.bg-t {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -10px -10px;
+}
+
+
+.bg-t_hover {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -66px -10px;
+}
+
+
+.bg-vk {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -10px -66px;
+}
+
+
+.bg-vk_hover {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -66px -66px;
+}
+
+
+.bg-f {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -122px -10px;
+}
+
+
+.bg-f_hover {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -122px -66px;
+}
+
+
+.bg-in {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -10px -122px;
+}
+
+
+.bg-in_hover {
+    width: 36px; height: 36px;
+    background: url('../../img/sprite/css_sprites.png') -66px -122px;
+}

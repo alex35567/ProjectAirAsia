@@ -7,14 +7,15 @@
 }
 
 
-.btn--theme-primary{
+.btn--theme-primary{    
     padding: 18px 40px;
     background: #F5170E;                                        
     color: white;    
     border: 1px solid #F5170E;  
+    transition: 0.8s;
 }
 
-.btn--theme-primary:hover{
+.btn--theme-primary:hover{    
     background: white;
     color: #F5170E;        
 }
@@ -32,6 +33,7 @@
     border: 1px solid #F5170E;    
     margin-top: auto;
     align-self: flex-start;
+    transition: 0.8s;
 
 }
 
@@ -40,7 +42,7 @@
     color: white; 
 }
 
-.btn--theme-secondary:hover {
+.btn--theme-secondary:hover {    
     background: #F5170E;                    
     /* border: 1px solid #000000; */
     color: white; 

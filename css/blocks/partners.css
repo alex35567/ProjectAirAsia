@@ -27,8 +27,12 @@
     height: 120px;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
+.partners__link:hover{
+    filter: grayscale(100%);
+}
 
 .partners_item{
     margin-right: 73;
