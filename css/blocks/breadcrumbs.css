@@ -16,8 +16,12 @@
 }
 
 .breadcrumbs__items--active .breadcrumbs__link{
-
+    transition: 0.5s;
     font-weight: bold;
+}
+
+.breadcrumbs__items:hover .breadcrumbs__link{
+    color: #dfb56d;
 }
 
 .breadcrumbs__items::after{
