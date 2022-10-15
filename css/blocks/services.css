@@ -23,6 +23,11 @@
     width: 100%;    
 }
 
+
+.nav__link-services--active {   
+    color: #dfb56d;
+}
+
 .top-line{
     width: 100%;
     background: #F2F2F2 url(../../img/services/headline.jpg) center top no-repeat;

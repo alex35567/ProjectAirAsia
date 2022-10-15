@@ -28,6 +28,11 @@
     background: #F2F2F2 url(../../img/reviews/headline.jpg) center top no-repeat;
 } */
 
+
+.nav__link-reviews--active {   
+    color: #dfb56d;
+}
+
 .reviews{
     column-count: 2;
     column-gap: 30px;
@@ -92,6 +97,8 @@ border-radius: 5px;
 .review__tags{
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .tag{
@@ -220,13 +227,14 @@ border-radius: 5px;
    flex: 1; 
    display: flex;
    flex-wrap: wrap;
+   gap: 10px;
 }
 
 .controls__elem{
     cursor: pointer;
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    /* gap: 10px; */
+    /* margin-bottom: 10px; */
 }
 
 .controls__checkbox:checked ~ .controls__tag{
