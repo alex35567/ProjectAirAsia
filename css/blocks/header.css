@@ -60,6 +60,18 @@
             transition:opacity 1s;
          }
 
+         .contacts__drop-info::after {
+            content: '';
+            display: block;
+            width: 14px;
+            height: 14px;
+            background: #CDD1D2;
+            position: absolute;
+            top: -8px;
+            right: 30px;
+            transform: rotate(45deg);
+        }
+
          .contacts__drop-info:before {
             content: "";
             display: block;
